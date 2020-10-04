@@ -1,0 +1,98 @@
+#nom {
+    display: flex;
+    flex-direction: row;
+   margin-bottom: 15px;
+    background-color:#F6A48C;
+    margin-top: none;
+
+}
+
+#lenom {
+    color: white;
+    display: flex;
+}
+
+
+#photo {
+    height: 200px;
+    width: 200px; 
+    background-color: #F3F3F3;   
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 15px;
+}
+
+picture {
+    margin: 50px;
+    display: flex;
+}
+
+#p2 {
+display: flex;
+flex-direction: row;
+}
+
+#qualifications {
+    flex: 1 1 70%;
+}
+
+#education {
+    flex: 1 1 30%;
+}
+
+#titreb1 {
+    display: flex;
+    background-color:#475B73 ;   
+    color: white;
+    padding: 10px;
+
+}
+#titreba {
+    display: flex;
+    background-color:#475B73 ;   
+    color: white;
+    padding: 10px;
+    padding-right: 80px;
+}
+
+fieldset {
+    background-color:#F6D4CB ;
+    border: none;
+}
+
+#titreb2 {
+    display: flex;
+    background-color:#475B73 ;   
+    color: white;
+    padding: 10px;
+    padding-right: 70px;
+}
+
+#p3 {
+display: flex;
+margin-top: 15px;
+flex-direction: row;
+}
+
+#lli {
+border-bottom: 1px solid black;
+padding: 0;
+}
+
+#f1 {
+    display: flex;
+}
+
+#fofo {
+flex: 1 1 70%; 
+}
+
+#p4 {
+ flex: 1 1 30%;
+}
+
+#oui {
+    background-color: #F3F3F3;
+}
