@@ -1,96 +1,117 @@
 <!DOCTYPE html>
 <html lang="fr">
-<body id="oui">
-<div id="nom">
-    <div id="photo">
-        <picture>
-            <img src="Images/image.png">
-        </picture>
+
+<body>
+    <!-- div avec le nom, prenom, photo, adresse et petit resumer -->
+    <div id="resumer">
+        <div id="photo">
+            <picture>
+                <img src="Images/image.png">
+            </picture>
+        </div>
+
+        <!-- div pour mettre le tout a droite de la photo -->
+        <div>
+            <!-- span pour la couleur du texte -->
+            <span id="reggie-walker">
+                <h1>Reggie Walker</h1>
+            </span>
+            <h2> 9301 Gold Ln | Fennel, CT | 111-222-3333|</h2>
+            <h2>rwalker23@yahoo.com</h2>
+            <p><span class="italic">An eloquent and dedicated customer service professional seeking to use exellent customer service
+                    skills ans charisma to enchance operation at Roadale Inc.</span></p>
+        </div>
     </div>
 
-    <div id="text">
-        <span id="lenom">
-<h1>Reggie Walker</h1>
-</span>
-        <h2> 9301 Gold Ln | Fennel, CT | 111-222-3333|</h2>
-        <h2>rwalker23@yahoo.com</h2>
-        <p><i>An eloquent and dedicated customer service professional seeking to use exellent customer service
-            skills ans charisma to enchance operation at Roadale Inc.</i></p>
+    <!-- div pour la deuxiem partie du cv avec qualifications summary et education -->
+    <div id="qualifications-education-container">
+        <!-- fieldset pour qualification summary -->
+        <fieldset id="qualifications">
+            <legend id="legend-qualifications">Qualifications Summmary</legend>
+            <ul>
+                <li>5+ years of experience in the customer service industry</li>
+                <li>Plenty of sales and advertising experiance</li>
+                <li>Easily establishes rapport with customers</li>
+                <li>Provides counteous and speedy service</li>
+                <li>Hard worker that is willing to take on extra sresponsibilities</li>
+                <li>Team player that works well with others</li>
+            </ul>
+        </fieldset>
+        <!-- fieldset pour education -->
+        <fieldset id="education">
+            <legend id="legend-education">Education</legend>
+            <p>August 2000 - May 2004 - <span class="italic">Associates DEgree, Marketing</span> GPA: 3.54 <span class="bold">Royal Farm
+                    Community College</span> Tokahoe,IL</p>
+        </fieldset>
     </div>
-</div>
 
-<div id="p2">
-    <fieldset id="qualifications" class="margin-right">
-        <legend id="titreb1">Qualifications Summmary</legend>
-        <ul>
-            <li>5+ years of experience in the customer service industry</li>
-            <li>Plenty of sales and advertising experiance</li>
-            <li>Easily establishes rapport with customers</li>
-            <li>Provides counteous and speedy service</li>
-            <li>Hard worker that is willing to take on extra sresponsibilities</li>
-            <li>Team player that works well with others</li>
-        </ul>
-    </fieldset>
-    <fieldset id="education">
-        <legend id="titreba">Education</legend>
-        <p>August 2000 - May 2004 - <i>Associates DEgree, Marketing</i> GPA: 3.54 <strong>Royal Farm
-            Community College</strong> Tokahoe,IL</p>
-    </fieldset>
-</div>
+    <!-- div pour la troisieme partie du cv avec work experiance -->
+    <div id="work-experience">
+        <!-- fieldset work experience -->
+        <fieldset id="fieldset-work-experience">
+            <!-- legend du fieldset work experience -->
+            <legend id="legend-work-experience">Work Experience</legend>
+            <!-- div avec tout le contenue du work experience -->
+            <div id="work-experience-container">
 
-<div id="p3">
-    <fieldset id="f1">
-        <legend id="titreb2">Work Experience</legend>
-        <div id="work-experience-container">
-            <div id="fofo" class="margin-right">
-                <div style="width: fit-content">
-                    <p style="display: flex;flex-direction: column">
-                        <span><strong>Customer Service Agent,</strong> Quality Communication,<i>Riverside, IL </i></span>
-                        <span>December 2011 - Present</span>
+                <!-- div pour la colonne de gauche du work experience -->
+                <div id="colonne-gauche">
+                    <div style="width: fit-content">
+                        <p id="customer-service-agent">
+                            <!-- span pour faire un retour à la ligne -->
+                            <span><span class="bold">Customer Service Agent,</span> Quality Communication,<span class="italic">Riverside, IL
+                            </span></span>
+                            <span>December 2011 - Present</span>
+                        </p>
+                        <ul>
+                            <li>Answered phone calls and responded to customer inquiries</li>
+                            <li>Asked relevant questions to determine customer issues</li>
+                            <li>Took detailed and accurate ,otes on customer issues</li>
+                            <li>Asked for customer details and devide details</li>
+                            <li>Provided basic repair and troubleshooting advice</li>
+                        </ul>
+                        <!-- p pour le customer service associate avec une border top -->
+                        <p id="customer-service-associate-gauche"class="border-top">
+                            <span><span class="bold">Customer Service Associate,</span> Complete Stores,<span class="italic"> Dover, IN</span></span>
+                            <span>September 2006 - November 2011</span>
+                        </p>
+                        <ul>
+                            <li>Answered phone calls and responded to customer inquiries</li>
+                            <li>Presented customers with latest promotions</li>
+                            <li>Made relevant suggestions to customers about new and related products</li>
+                            <li>Signed up customers for loyalty program</li>
+                            <li>Ensured customer questions were answered on sales floor</li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- div de la colonne de droite -->
+                <div id="colonne-droite">
+                    <p id="customer-service-associate-droite">
+                        <!-- span pour retour à la ligne -->
+                        <span><span class="bold">Customer Service Associate,</span>Scarecrow Technology,<span class="italic">Fordham, IL
+                        </span></span>
+                        <span>September 2005 - August 2006</span>
                     </p>
                     <ul>
-                        <li>Answered phone calls and responded to customer inquiries</li>
-                        <li>Asked relevant questions to determine customer issues</li>
-                        <li>Took detailed and accurate ,otes on customer issues</li>
-                        <li>Asked for customer details and devide details</li>
-                        <li id="lli">Provided basic repair and troubleshooting advice</li>
-                    </ul>
-                    <p class="border-top" style="display: flex;flex-direction: column">
-                        <span><strong>Customer Service Associate,</strong> Complete Stores,<i> Dover, IN</i></span>
-                        <span>September 2006 - November 2011</span>
-                    </p>
-                    <ul>
-                        <li>Answered phone calls and responded to customer inquiries</li>
-                        <li>Presented customers with latest promotions</li>
-                        <li>Made relevant suggestions to customers about new and related products</li>
-                        <li>Signed up customers for loyalty program</li>
-                        <li>Ensured customer questions were answered on sales floor</li>
+                        <li>Answered phone inquiries regarding &nbsp; Product questions and issues</li>
+                        <li>Took down customer details &nbsp; and &nbsp; warranty information</li>
+                        <li>Directed customer call to relevant &emsp; service departement</li>
+                        <li>Handled shipping label generation for returns and exchanges</li>
+                        <li>Promoted store credit card to new customers</li>
                     </ul>
                 </div>
-            </div>
-            <div id="p4">
-                <p style="display: flex;flex-direction: column">
-                    <span><strong>Customer Service Associate,</strong>Scarecrow Technology,<i>Fordham, IL </i></span>
-                    <span>September 2005 - August 2006</span>
-                </p>
-                <ul>
-                    <li>Answered phone inquiries regarding &nbsp; Product questions and issues</li>
-                    <li>Took down customer details &nbsp; and &nbsp; warranty information</li>
-                    <li>Directed customer call to relevant &emsp; service departement</li>
-                    <li>Handled shipping label generation for returns and exchanges</li>
-                    <li>Promoted store credit card to new customers</li>
-                </ul>
-            </div>
 
-        </div>
-    </fieldset>
-</div>
+            </div>
+        </fieldset>
+    </div>
 
 </body>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CVexo</title>
     <link rel="stylesheet" href="CSS/Style.css" type="text/css">
 </head>
+
 </html>

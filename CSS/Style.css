@@ -1,4 +1,4 @@
-#nom {
+#resumer {
     display: flex;
     flex-direction: row;
     margin-bottom: 15px;
@@ -7,7 +7,7 @@
 
 }
 
-#lenom {
+#reggie-walker {
     color: white;
     display: flex;
 }
@@ -29,20 +29,21 @@ picture {
     display: flex;
 }
 
-#p2 {
+#qualifications-education-container {
     display: flex;
     flex-direction: row;
 }
 
 #qualifications {
     flex: 1 1 70%;
+    margin-right: 5%;
 }
 
 #education {
     flex: 1 1 30%;
 }
 
-#titreb1 {
+#legend-qualifications {
     display: flex;
     background-color: #475B73;
     color: white;
@@ -50,7 +51,7 @@ picture {
 
 }
 
-#titreba {
+#legend-education {
     display: flex;
     background-color: #475B73;
     color: white;
@@ -64,7 +65,17 @@ fieldset {
     width: 100%;
 }
 
-#titreb2 {
+#work-experience {
+    display: flex;
+    margin-top: 15px;
+    flex-direction: row;
+}
+
+#fieldset-work-experience {
+    display: flex;
+}
+
+#legend-work-experience {
     display: flex;
     background-color: #475B73;
     color: white;
@@ -72,40 +83,44 @@ fieldset {
     padding-right: 70px;
 }
 
-#p3 {
-    display: flex;
-    margin-top: 15px;
-    flex-direction: row;
-}
-
-#lli {
-    padding: 0;
-}
-
-.border-top {
-    border-top: 1px solid black;
-}
-
-#f1 {
-    display: flex;
-}
-
 #work-experience-container {
     display: flex;
 }
 
-#fofo {
+#colonne-gauche {
     flex: 1 1 70%;
+    margin-right: 5%;
+    width: fit-content
 }
 
-#p4 {
+#customer-service-agent {
+    display: flex;
+    flex-direction: column;
+}
+
+#Customer-service-associate-gauche {
+    display: flex;
+    flex-direction: column;
+}
+
+.border-top {
+    border-top: 1px solid black;
+    padding-top: 2%;
+}
+
+#colonne-droite {
     flex: 1 1 30%;
 }
 
-#oui {
-    background-color: #F3F3F3;
+#customer-service-associate-droite{
+    display: flex;
+    flex-direction: column;
 }
 
-.margin-right {
-    margin-right: 3rem;
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-style: bold;
 }
