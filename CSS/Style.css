@@ -1,19 +1,21 @@
-#resumer {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 15px;
-    background-color: #F6A48C;
-    margin-top: none;
-
+.font {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#reggie-walker {
+.resumer {
+    display: flex;
+    background-color: #F6A48C;
+    flex-wrap: wrap;
+    min-width: fit-content;
+}
+
+.reggieWalker {
     color: white;
     display: flex;
 }
 
 
-#photo {
+.photo {
     height: 200px;
     width: 200px;
     background-color: #F3F3F3;
@@ -21,84 +23,66 @@
     display: flex;
     justify-content: center;
     flex-direction: column;
-    margin: 15px;
+    margin: 1rem;
+}
+
+.resumer-information {
+    flex: 1 1 50vw;
 }
 
 picture {
-    margin: 50px;
+    margin: 3.5rem;
     display: flex;
 }
 
-#qualifications-education-container {
+.qualification-education-container {
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-#qualifications {
-    flex: 1 1 70%;
+.qualifications {
+    flex: 1 1 60%;
     margin-right: 5%;
 }
 
-#education {
-    flex: 1 1 30%;
-}
 
-#legend-qualifications {
+
+.legend {
     display: flex;
     background-color: #475B73;
     color: white;
-    padding: 10px;
+    padding: 0.5rem;
+    width: 20vw;
+    min-width: fit-content;
 
 }
 
-#legend-education {
-    display: flex;
-    background-color: #475B73;
-    color: white;
-    padding: 10px;
-    padding-right: 80px;
-}
 
 fieldset {
     background-color: #F6D4CB;
     border: none;
     width: 100%;
+  
 }
 
-#work-experience {
+.work-experience {
     display: flex;
-    margin-top: 15px;
     flex-direction: row;
 }
 
-#fieldset-work-experience {
+
+.work-experience-container {
     display: flex;
+    flex-wrap: wrap;
 }
 
-#legend-work-experience {
-    display: flex;
-    background-color: #475B73;
-    color: white;
-    padding: 10px;
-    padding-right: 70px;
-}
-
-#work-experience-container {
-    display: flex;
-}
-
-#colonne-gauche {
+.colonne-gauche {
     flex: 1 1 70%;
     margin-right: 5%;
     width: fit-content
 }
 
-#customer-service-agent {
-    display: flex;
-    flex-direction: column;
-}
-
-#Customer-service-associate-gauche {
+.customer-services {
     display: flex;
     flex-direction: column;
 }
@@ -106,15 +90,11 @@ fieldset {
 .border-top {
     border-top: 1px solid black;
     padding-top: 2%;
+    max-width: fit-content;
 }
 
-#colonne-droite {
-    flex: 1 1 30%;
-}
-
-#customer-service-associate-droite{
-    display: flex;
-    flex-direction: column;
+.colonne-droite {
+    flex: 1 1 25%;
 }
 
 .italic {
@@ -122,5 +102,9 @@ fieldset {
 }
 
 .bold {
-    font-style: bold;
+    font-weight: bold;
+}
+
+.margin-top {
+    margin-top: 1rem;
 }
